@@ -6,7 +6,7 @@ on:
 jobs:
   update:
     name: digest
-    runs-on: alexws
+    runs-on: [self-hosted, linux, ARM64]
     steps:
       - name: checkout
         uses: actions/checkout@master
